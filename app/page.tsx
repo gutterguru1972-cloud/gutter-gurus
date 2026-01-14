@@ -1,8 +1,63 @@
 export default function Home() {
   return (
-    <main style={{ padding: 40, fontFamily: "Arial" }}>
-      <h1>Gutter Gurus – działa ✅</h1>
-      <p>Tel / WhatsApp: 085 169 8471</p>
+    <main style={{ fontFamily: "Arial, sans-serif", padding: "40px", maxWidth: "1100px", margin: "0 auto" }}>
+
+      {/* HERO */}
+      <section style={{ marginBottom: "50px" }}>
+        <h1 style={{ fontSize: "42px", marginBottom: "10px" }}>
+          Gutter Gurus – Exterior Cleaning Services
+        </h1>
+        <p style={{ fontSize: "20px", color: "#444" }}>
+          Professional exterior & interior cleaning in Dublin and Wicklow
+        </p>
+        <p style={{ fontSize: "18px", marginTop: "15px" }}>
+          📞 Tel / WhatsApp: <strong>085 169 8471</strong>
+        </p>
+      </section>
+
+      {/* ABOUT */}
+      <section style={{ marginBottom: "40px" }}>
+        <h2>About Us</h2>
+        <p>
+          Gutter Gurus provides reliable and professional cleaning services for
+          private homeowners. We work using professional hot water and steam
+          cleaning equipment to deliver the best results safely and efficiently.
+        </p>
+      </section>
+
+      {/* SERVICES */}
+      <section style={{ marginBottom: "40px" }}>
+        <h2>Our Services</h2>
+        <ul style={{ lineHeight: "1.8" }}>
+          <li>✔ Gutter cleaning</li>
+          <li>✔ Roof cleaning & moss removal</li>
+          <li>✔ Driveway & patio pressure washing</li>
+          <li>✔ Wheelie bin cleaning</li>
+          <li>✔ Window cleaning</li>
+          <li>✔ Facade & brick cleaning</li>
+          <li>✔ Carpet & upholstery cleaning</li>
+        </ul>
+      </section>
+
+      {/* WHY US */}
+      <section style={{ marginBottom: "40px" }}>
+        <h2>Why Choose Gutter Gurus?</h2>
+        <ul style={{ lineHeight: "1.8" }}>
+          <li>✅ Professional equipment (hot water & steam)</li>
+          <li>✅ Experienced & insured</li>
+          <li>✅ Affordable prices</li>
+          <li>✅ Dublin & Wicklow coverage</li>
+        </ul>
+      </section>
+
+      {/* CONTACT */}
+      <section style={{ borderTop: "1px solid #ddd", paddingTop: "30px" }}>
+        <h2>Contact</h2>
+        <p>📍 Dublin & Wicklow</p>
+        <p>📞 Tel / WhatsApp: <strong>085 169 8471</strong></p>
+        <p>✉️ Email: <strong>gutterguru1972@gmail.com</strong></p>
+      </section>
+
     </main>
   );
 }
