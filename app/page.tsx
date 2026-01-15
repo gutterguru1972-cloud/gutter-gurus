@@ -101,6 +101,12 @@ export default function Home() {
       alt="Gutter cleaning"
       style={{ width: "100%", borderRadius: "10px" }}
     />
+
+    <img
+    src="/images/gutters/20251210_133214.jpg"
+      alt="Gutter cleaning"
+      style={{ width: "100%", borderRadius: "10px" }}
+   />  
   </div>
 
 </section>
