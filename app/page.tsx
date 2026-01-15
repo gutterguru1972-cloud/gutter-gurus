@@ -141,27 +141,29 @@ export default function Home() {
 />
 
 <img
-  src="/images/driveway/20250312_133702.jpg"
-  alt="Driveway cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-<img
   src="/images/driveway/20250312_131905.jpg"
   alt="Driveway cleaning"
   style={{ width: "100%", borderRadius: "10px" }}
 />
 
 <img
-  src="/images/driveway/20250312_104402.jpg"
+  src="/images/driveway/20250312_133702.jpg"
   alt="Driveway cleaning"
   style={{ width: "100%", borderRadius: "10px" }}
 />
 
 <img
-  src="/images/driveway/20250312_104409.jpg"
+  src="/images/driveway/20251216_104402.jpg"
   alt="Driveway cleaning"
   style={{ width: "100%", borderRadius: "10px" }}
 />
+
+<img
+  src="/images/driveway/20251216_104409.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
+
 
  </div>
 </section>
