@@ -115,6 +115,19 @@ export default function Home() {
   </div>
 
 </section>
+{/* DRIVEWAY GALLERY */}
+<section style={{ marginBottom: "40px" }}>
+  <h3 style={{ marginTop: "25px" }}>Driveway cleaning – gallery</h3>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "12px",
+      marginTop: "12px",
+    }}
+  >
+
  <img
   src="/images/driveway/20250312_131854.jpg"
   alt="Driveway cleaning"
@@ -150,6 +163,8 @@ export default function Home() {
   style={{ width: "100%", borderRadius: "10px" }}
 />
 
+ </div>
+</section>
   
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
