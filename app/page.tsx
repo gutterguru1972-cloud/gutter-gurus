@@ -64,6 +64,11 @@ export default function Home() {
     alt="Roof cleaning"
     style={{ width: "100%", borderRadius: "10px" }}
   />
+  <img
+    src="/images/roof/20251212_115439.jpg"
+    alt="Roof cleaning"
+    style={{ width: "100%", borderRadius: "10px" }}
+  />
 </div>
 
       </section>
