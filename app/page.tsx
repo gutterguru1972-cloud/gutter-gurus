@@ -37,6 +37,29 @@ export default function Home() {
           <li>✔ Facade & brick cleaning</li>
           <li>✔ Carpet & upholstery cleaning</li>
         </ul>
+        {/* ROOF GALLERY */}
+<h3 style={{ marginTop: "25px" }}>Roof cleaning – gallery</h3>
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+    gap: "12px",
+    marginTop: "12px",
+  }}
+>
+  <img
+    src="/images/roof/20251210_103044.jpg"
+    alt="Roof cleaning"
+    style={{ width: "100%", borderRadius: "10px" }}
+  />
+  <img
+    src="/images/roof/20251212_115523.jpg"
+    alt="Roof cleaning"
+    style={{ width: "100%", borderRadius: "10px" }}
+  />
+</div>
+
       </section>
 
       {/* WHY US */}
