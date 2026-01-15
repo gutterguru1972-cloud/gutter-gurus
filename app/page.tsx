@@ -115,7 +115,42 @@ export default function Home() {
   </div>
 
 </section>
+ <img
+  src="/images/driveway/20250312_131854.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
 
+<img
+  src="/images/driveway/20250312_131857.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
+
+<img
+  src="/images/driveway/20250312_133702.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
+<img
+  src="/images/driveway/20250312_131905.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
+
+<img
+  src="/images/driveway/20250312_104402.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
+
+<img
+  src="/images/driveway/20250312_104409.jpg"
+  alt="Driveway cleaning"
+  style={{ width: "100%", borderRadius: "10px" }}
+/>
+
+  
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
         <h2>Why Choose Gutter Gurus?</h2>
