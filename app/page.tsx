@@ -72,6 +72,38 @@ export default function Home() {
 </div>
 
       </section>
+{/* GUTTER CLEANING – GALLERY */}
+<section style={{ marginBottom: "40px" }}>
+  <h2>Gutter cleaning – gallery</h2>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "12px",
+      marginTop: "12px",
+    }}
+  >
+    <img
+      src="/images/gutters/20251210_103036.jpg"
+      alt="Gutter cleaning"
+      style={{ width: "100%", borderRadius: "10px" }}
+    />
+
+    <img
+      src="/images/gutters/20251210_123108.jpg"
+      alt="Gutter cleaning"
+      style={{ width: "100%", borderRadius: "10px" }}
+    />
+
+    <img
+      src="/images/gutters/20251210_133209.jpg"
+      alt="Gutter cleaning"
+      style={{ width: "100%", borderRadius: "10px" }}
+    />
+  </div>
+
+</section>
 
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
