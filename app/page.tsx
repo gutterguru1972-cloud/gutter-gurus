@@ -261,6 +261,57 @@ export default function Home() {
         <p>📍 Dublin & Wicklow</p>
         <p>📞 Tel / WhatsApp: <strong>085 169 8471</strong></p>
         <p>✉️ Email: <strong>gutterguru1972@gmail.com</strong></p>
+        <form
+  action="mailto:gutterguru1972@gmail.com"
+  method="post"
+  encType="text/plain"
+  style={{
+    marginTop: "16px",
+    display: "grid",
+    gap: "10px",
+    maxWidth: "420px",
+  }}
+>
+  <input
+    name="Name"
+    placeholder="Your name"
+    style={{ padding: "10px", borderRadius: "10px" }}
+  />
+
+  <input
+    name="Phone"
+    placeholder="Phone number"
+    style={{ padding: "10px", borderRadius: "10px" }}
+  />
+
+  <input
+    name="Area"
+    placeholder="Area (e.g. Tallaght)"
+    style={{ padding: "10px", borderRadius: "10px" }}
+  />
+
+  <textarea
+    name="Service"
+    placeholder="What service do you need? (gutter, roof, driveway, bins, carpet...)"
+    rows={4}
+    style={{ padding: "10px", borderRadius: "10px" }}
+  />
+
+  <button
+    type="submit"
+    style={{
+      padding: "12px",
+      borderRadius: "12px",
+      fontWeight: 700,
+      background: "#22c55e",
+      border: "none",
+      cursor: "pointer",
+    }}
+  >
+    Send enquiry
+  </button>
+</form>
+
       </section>
 
     </main>
