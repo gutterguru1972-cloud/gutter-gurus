@@ -58,18 +58,7 @@ export default function Home() {
         </p>
       </section>
 
-      {/* SERVICES */}
-      <section style={{ marginBottom: "40px" }}>
-        <h2>Our Services</h2>
-        <ul style={{ lineHeight: "1.8" }}>
-          <li>✔ Gutter cleaning</li>
-          <li>✔ Roof cleaning & moss removal</li>
-          <li>✔ Driveway & patio pressure washing</li>
-          <li>✔ Wheelie bin cleaning</li>
-          <li>✔ Window cleaning</li>
-          <li>✔ Facade & brick cleaning</li>
-          <li>✔ Carpet & upholstery cleaning</li>
-        </ul>
+      
         {/* ROOF GALLERY */}
 <h3 style={{ marginTop: "25px" }}>Roof cleaning – gallery</h3>
 
