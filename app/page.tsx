@@ -241,44 +241,7 @@ export default function Home() {
    
   </div>
 </section>
-{/* SERVICES */}
-<section style={{ marginBottom: "40px" }}>
-  <h2>Services</h2>
 
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-      gap: "12px",
-      marginTop: "12px",
-    }}
-  >
-    {[
-      "Gutter cleaning",
-      "Roof cleaning",
-      "Driveway & patio cleaning",
-      "Wheelie bin cleaning",
-      "Window cleaning",
-      "Facade / brick cleaning",
-      "Carpet & upholstery cleaning",
-    ].map((s) => (
-      <div
-        key={s}
-        style={{
-          border: "1px solid #2a2a2a",
-          borderRadius: "12px",
-          padding: "14px",
-          background: "#0f0f0f",
-        }}
-      >
-        <div style={{ fontWeight: 700, marginBottom: "6px" }}>{s}</div>
-        <div style={{ opacity: 0.85, fontSize: "14px", lineHeight: "1.5" }}>
-          Fast quotes • Dublin & Wicklow • Insured
-        </div>
-      </div>
-    ))}
-  </div>
-</section>
 
 
       {/* WHY US */}
