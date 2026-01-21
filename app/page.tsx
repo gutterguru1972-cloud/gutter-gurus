@@ -214,7 +214,6 @@ export default function Home() {
   style={{ width: "100%", borderRadius: "10px" }}
 />
 
-
  </div>
 </section>
 
