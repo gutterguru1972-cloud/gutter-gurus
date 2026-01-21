@@ -166,7 +166,7 @@ export default function Home() {
 
 
  </div>
- 
+
  </section>
  {/* CARPET GALLERY */}
 <section style={{ marginBottom: "40px" }}>
@@ -180,45 +180,39 @@ export default function Home() {
       marginTop: "12px",
     }}
   >
-
- <img
-  src="/images/carpet/20240916_145026.jpg"
-  alt="Carpet cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-
-<img
-  src="/images/carpet/20240916_152027.jpg"
-  alt="Carpet cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-
-<img
-  src="/images/carpet/20240916_153724.jpg"
-  alt="Carpet cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-
-<img
-  src="/images/carpet/20250829_101051.jpg"
-  alt="Carpet cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-
-<img
-  src="/images/carpet/20250829_115933.jpg"
-  alt="Carpet cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-
-<img
-  src="/images/carpet/20250312_131854.jpg"
-  alt="Carpet cleaning"
-  style={{ width: "100%", borderRadius: "10px" }}
-/>
-   </div>
-
+    <img
+      src="/images/carpet/20240916_145026.jpg"
+      alt="Carpet cleaning"
+      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
+    />
+    <img
+      src="/images/carpet/20240916_152027.jpg"
+      alt="Carpet cleaning"
+      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
+    />
+    <img
+      src="/images/carpet/20240916_153724.jpg"
+      alt="Carpet cleaning"
+      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
+    />
+    <img
+      src="/images/carpet/20250829_101051.jpg"
+      alt="Carpet cleaning"
+      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
+    />
+    <img
+      src="/images/carpet/20250829_115933.jpg"
+      alt="Carpet cleaning"
+      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
+    />
+    <img
+      src="/images/carpet/20250312_131854.jpg"
+      alt="Carpet cleaning"
+      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
+    />
+  </div>
 </section>
+
 
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
