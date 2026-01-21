@@ -206,7 +206,7 @@ export default function Home() {
       style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
     />
     <img
-      src="/images/carpet/20250312_131854.jpg"
+      src="/images/carpet/received_1072527924510500.jpg"
       alt="Carpet cleaning"
       style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
     />
