@@ -166,7 +166,8 @@ export default function Home() {
 
 
  </div>
-</section>
+ {/* CARPET GALLERY */}
+<section style={{ marginBottom: "40px" }}>
   <h3 style={{ marginTop: "25px" }}>Carpet cleaning – gallery</h3>
 
   <div
@@ -213,9 +214,9 @@ export default function Home() {
   alt="Carpet cleaning"
   style={{ width: "100%", borderRadius: "10px" }}
 />
- </div>
-</section>
+   </div>
 
+</section>
 
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
