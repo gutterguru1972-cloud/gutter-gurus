@@ -3,6 +3,39 @@ export default function Home() {
     <main style={{ fontFamily: "Arial, sans-serif", padding: "40px", maxWidth: "1100px", margin: "0 auto" }}>
 
       {/* HERO */}
+      <div style={{ display: "flex", gap: "12px", flexWrap: "wrap", marginTop: "12px" }}>
+  <a
+    href="#contact"
+    style={{
+      background: "#22c55e",
+      color: "black",
+      padding: "12px 16px",
+      borderRadius: "12px",
+      fontWeight: 700,
+      textDecoration: "none",
+      display: "inline-block",
+    }}
+  >
+    Get a free quote
+  </a>
+
+  <a
+    href="tel:+353851698471"
+    style={{
+      background: "#111",
+      color: "white",
+      padding: "12px 16px",
+      borderRadius: "12px",
+      fontWeight: 700,
+      textDecoration: "none",
+      display: "inline-block",
+      border: "1px solid #333",
+    }}
+  >
+    Call / WhatsApp
+  </a>
+</div>
+
       <section style={{ marginBottom: "50px" }}>
         <h1 style={{ fontSize: "42px", marginBottom: "10px" }}>
           Gutter Gurus – Exterior Cleaning Services
