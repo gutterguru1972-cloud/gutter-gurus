@@ -217,6 +217,7 @@ export default function Home() {
 
  </div>
 </section>
+
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
         <h2>Why Choose Gutter Gurus?</h2>
