@@ -255,7 +255,8 @@ export default function Home() {
       </section>
 
       {/* CONTACT */}
-      <section style={{ borderTop: "1px solid #ddd", paddingTop: "30px" }}>
+      <section id="contact"
+       style={{ borderTop: "1px solid #ddd", paddingTop: "30px" }}>
         <h2>Contact</h2>
         <p>📍 Dublin & Wicklow</p>
         <p>📞 Tel / WhatsApp: <strong>085 169 8471</strong></p>
