@@ -205,11 +205,7 @@ export default function Home() {
       alt="Carpet cleaning"
       style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
     />
-    <img
-      src="/images/carpet/received_1072527924510500.jpg"
-      alt="Carpet cleaning"
-      style={{ width: "100%", height: "220px", objectFit: "cover", borderRadius: "10px" }}
-    />
+   
   </div>
 </section>
 
