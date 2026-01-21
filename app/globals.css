@@ -24,3 +24,55 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+{/* PRICES */}
+<section style={{ marginBottom: "40px" }}>
+  <h2>Prices – from</h2>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "12px",
+      marginTop: "16px",
+    }}
+  >
+    <div className="card">
+      <strong>Gutter cleaning</strong>
+      <p>from €80</p>
+    </div>
+
+    <div className="card">
+      <strong>Roof cleaning</strong>
+      <p>from €570</p>
+    </div>
+
+    <div className="card">
+      <strong>Driveway & patio cleaning</strong>
+      <p>from €50</p>
+    </div>
+
+    <div className="card">
+      <strong>Wheelie bin cleaning</strong>
+      <p>from €15</p>
+    </div>
+
+    <div className="card">
+      <strong>Window cleaning</strong>
+      <p>from €40</p>
+    </div>
+
+    <div className="card">
+      <strong>Facade / brick cleaning</strong>
+      <p>from €120</p>
+    </div>
+
+    <div className="card">
+      <strong>Carpet & upholstery cleaning</strong>
+      <p>from €60</p>
+    </div>
+  </div>
+
+  <p style={{ marginTop: "12px", opacity: 0.8 }}>
+    Final price depends on size, condition & access. Free quotes available.
+  </p>
+</section>
