@@ -213,9 +213,9 @@ export default function Home() {
   alt="Carpet cleaning"
   style={{ width: "100%", borderRadius: "10px" }}
 />
-
  </div>
 </section>
+
 
       {/* WHY US */}
       <section style={{ marginBottom: "40px" }}>
