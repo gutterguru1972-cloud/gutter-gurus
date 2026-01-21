@@ -330,6 +330,27 @@ export default function Home() {
     ))}
   </div>
 </section>
+{/* PRICES FROM */}
+<section style={{ marginTop: "50px" }}>
+  <h2>Prices – from</h2>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "12px",
+      marginTop: "12px",
+    }}
+  >
+    <div className="card">Gutter cleaning – from €80</div>
+    <div className="card">Roof cleaning – from €570</div>
+    <div className="card">Driveway & patio – from €50</div>
+    <div className="card">Wheelie bin cleaning – from €15</div>
+    <div className="card">Window cleaning – from €40</div>
+    <div className="card">Facade / brick cleaning – from €120</div>
+    <div className="card">Carpet & upholstery – from €60</div>
+  </div>
+</section>
 
       {/* CONTACT */}
       <section id="contact"
